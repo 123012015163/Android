@@ -1,0 +1,83 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:stretchColumns="*" >
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text=" Open...                         Ctrl-O"
+            android:textColor="#808080"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text=" Save...                         Ctrl-O"
+            android:textColor="#808080"
+            android:textSize="30dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text=" Save As...          Ctrl-Shift-O"
+            android:textColor="#808080"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow>
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="X Import...                            "
+            android:textColor="#808080"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="X Export...                  Ctrl-E"
+            android:textColor="#808080"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow>
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Qult                                      "
+            android:textColor="#808080"
+            android:textSize="30dp" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <!-- orientation:vertical 这个表示每当出现一个LinearLayout就换一行，垂直布局-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:width="60dp"
+            android:background="#000000"
+            android:text="One，One"
+            android:textColor="#FFFFFF"
+            android:padding="3dp"
+            />
+
+        <Button
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:width="60dp"
+            android:background="#000000"
+            android:text="One，TWO"
+            android:textColor="#FFFFFF"
+            android:padding="3dp"/>
+
+        <Button
+            android:id="@+id/t3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:width="80dp"
+            android:background="#000000"
+            android:text="One，THREE"
+            android:textColor="#FFFFFF"
+            android:padding="3dp"/>
+
+        <Button
+            android:id="@+id/t4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:width="60dp"
+            android:background="#000000"
+            android:text="One，Four"
+            android:textColor="#FFFFFF"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Two，one"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Two，two"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Two，three"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.54" />
+
+        <Button
+            android:id="@+id/t8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Two，four"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/t9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Three，one"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/t10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Three，two"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/t11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Three，three"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.54" />
+
+        <Button
+            android:id="@+id/t12"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Three，four"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/t13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Four，one"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/t14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Four，two"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/t15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Four，three"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.54" />
+
+        <Button
+            android:id="@+id/t16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Four，four"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
